@@ -1,0 +1,18 @@
+{
+  "name": "format-converter",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "bin/run.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maxim Bogochunas",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1"
+  }
+}
