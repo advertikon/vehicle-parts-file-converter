@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
-    "commander": "^9.4.1"
+    "commander": "^9.4.1",
+    "csv-parse": "^5.3.1",
+    "stream-transform": "^3.2.0"
   }
 }
