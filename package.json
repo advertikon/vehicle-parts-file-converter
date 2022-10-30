@@ -23,7 +23,7 @@
     "url": "https://github.com/advertikon/vehicle-parts-file-converter.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "devDependencies": {
     "semantic-release": "^19.0.5",
