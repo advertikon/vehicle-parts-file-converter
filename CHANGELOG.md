@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.3...v1.0.4) (2022-10-30)
+
+
+### Bug Fixes
+
+* fix global installation issue ([26d3299](https://github.com/advertikon/vehicle-parts-file-converter/commit/26d32999d58ee9b912ecdc14a645b00ded979c01))
+
 ## [1.0.3](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.2...v1.0.3) (2022-10-30)
 
 
