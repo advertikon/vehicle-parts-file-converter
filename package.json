@@ -1,12 +1,13 @@
 {
   "name": "format-converter",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "bin": "bin/run.js",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "Maxim Bogochunas",
@@ -16,5 +17,21 @@
     "commander": "^9.4.1",
     "csv-parse": "^5.3.1",
     "stream-transform": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/advertikon/vehicle-parts-file-converter.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3"
   }
 }
