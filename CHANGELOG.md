@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.4...v1.0.5) (2022-11-01)
+
+
+### Bug Fixes
+
+* fix namespace issue ([2ef6d83](https://github.com/advertikon/vehicle-parts-file-converter/commit/2ef6d83ca6cbb53a7a45176de56396815ff55369))
+
 ## [1.0.4](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.3...v1.0.4) (2022-10-30)
 
 
