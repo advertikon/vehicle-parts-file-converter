@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.5...v1.0.6) (2023-02-05)
+
+
+### Bug Fixes
+
+* **docs:** change docs ([b8a65f5](https://github.com/advertikon/vehicle-parts-file-converter/commit/b8a65f58e2d822209e4a2c51fe1fff0356965e19))
+
 ## [1.0.5](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.4...v1.0.5) (2022-11-01)
 
 
