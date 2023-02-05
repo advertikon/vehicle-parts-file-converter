@@ -7,7 +7,7 @@ const program = new Command();
 program
     .command('convert <file-name>')
     .description('Convert file to proper format')
-    .requiredOption('-n --namespace <namespace>', 'DB namespace')
+    .requiredOption('-n --namespace <namespace>', 'table name')
     .option('--separator-in <delimiter-in>', 'input file fields delimiter', ',')
     .option('--separator-out <delimiter-out>', 'output file fields delimiter', '|')
     .action(async (fileName, options) => {
