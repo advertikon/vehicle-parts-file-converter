@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.6...v1.1.0) (2023-05-18)
+
+
+### Features
+
+* add output directory ([da35900](https://github.com/advertikon/vehicle-parts-file-converter/commit/da3590059f64d56dc0d2efb10b49782bc10bf11c))
+
 ## [1.0.6](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.0.5...v1.0.6) (2023-02-05)
 
 
