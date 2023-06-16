@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.1.1...v1.2.0) (2023-06-16)
+
+
+### Features
+
+* add interactive options picker ([3a82009](https://github.com/advertikon/vehicle-parts-file-converter/commit/3a8200925261bfbddf83bc488f93e4c9ce68d31a))
+
 ## [1.1.1](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.1.0...v1.1.1) (2023-06-07)
 
 
