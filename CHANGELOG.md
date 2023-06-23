@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.2.0...v1.2.1) (2023-06-23)
+
+
+### Bug Fixes
+
+* save output file to input file dir by default, check if year is a number ([6d01973](https://github.com/advertikon/vehicle-parts-file-converter/commit/6d0197303ebb6d5cfd609767037f540052f2d531))
+
 # [1.2.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.1.1...v1.2.0) (2023-06-16)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@bogochunas/vehicle-format-converter",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "bin": "bin/run.js",
   "main": "index.js",
