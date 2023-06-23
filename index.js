@@ -3,6 +3,7 @@ import colors from 'colors';
 import { Converter } from './lib/converter.js';
 import fs from 'fs';
 import {readOptions} from "./lib/read-options.js";
+import path from 'path';
 
 const program = new Command();
 program.version(JSON.parse(fs.readFileSync('package.json')).version, '-v, --version');
@@ -18,6 +19,7 @@ program
     .command('convert <file-name>')
     .description('Convert file to proper format')
     .action(async fileName => {
+        options[3][3] = path.dirname(fileName); // save output to same dit as and input file
         const { separatorIn, separatorOut, namespace, outDir } = await readOptions(options);
         await Converter(fileName, namespace, separatorIn, separatorOut, outDir).catch(e => console.error(`Error: ${e.message}`.red));
     });
