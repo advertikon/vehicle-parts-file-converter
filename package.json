@@ -2,7 +2,9 @@
   "name": "@bogochunas/vehicle-format-converter",
   "version": "1.2.1",
   "description": "",
-  "bin": "bin/run.js",
+  "bin": {
+    "vehicle-converter": "bin/run.js"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -18,6 +20,7 @@
     "colors": "^1.4.0",
     "commander": "^9.4.1",
     "csv-parse": "^5.3.1",
+    "lodash": "^4.17.21",
     "stream-transform": "^3.2.0"
   },
   "repository": {
