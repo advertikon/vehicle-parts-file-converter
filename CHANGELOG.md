@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.2.1...v1.2.2) (2023-10-14)
+
+
+### Bug Fixes
+
+* finish joiner ([67efd1f](https://github.com/advertikon/vehicle-parts-file-converter/commit/67efd1f0019b12c94554ba2abc11b0fe68583c0f))
+
 ## [1.2.1](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.2.0...v1.2.1) (2023-06-23)
 
 
