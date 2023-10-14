@@ -12,8 +12,18 @@ const options = [
     process.cwd(),
   ],
   ["outputFileName", "Select a name for the joined file", null, "joined.csv"],
-  ["inputDelimiter", "Select a delimiter for input files", [",", "|", "\t"], ","],
-  ["outpurtDelimiter", "Select a delimiter for output files", [",", "|", "\t"], "|"],
+  [
+    "inputDelimiter",
+    "Select a delimiter for input files",
+    [",", "|", "tab"],
+    "tab",
+  ],
+  [
+    "outpurtDelimiter",
+    "Select a delimiter for output files",
+    [",", "|", "tab"],
+    "|",
+  ],
   ["bucketsCount", "Output files number", null, 10],
 ];
 
@@ -31,8 +41,29 @@ export function joinCommand(program) {
         return;
       }
 
+      if (data.inputDelimiter === "tab") {
+        data.inputDelimiter = "\t";
+      }
+
+      if (data.outpurtDelimiter === "tab") {
+        data.outpurtDelimiter = "\t";
+      }
+
+      const fileMatch = data.outputFileName.match(
+        /^(?<prefix>[^.]+)\.(?<extension>.+)$/
+      );
+
+      if (!fileMatch) {
+        console.error(`Error: invalid filename ${data.filename}`.red);
+        return;
+      }
+
+      data.filePrefix = `${fileMatch.groups.prefix}-`;
+      data.fileExtension = fileMatch.groups.extension;
+      data.tmpSuffix = ".tmp";
+
       await Joiner(data).catch((e) => {
-        console.error(`Error: ${e} in ${e.filename} at ${e.lineNumber}`.red)
+        console.error(`Error: ${e}`.red);
         console.error(e.stack);
       });
     });
