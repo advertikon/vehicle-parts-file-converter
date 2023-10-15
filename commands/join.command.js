@@ -61,6 +61,7 @@ export function joinCommand(program) {
       data.filePrefix = `${fileMatch.groups.prefix}-`;
       data.fileExtension = fileMatch.groups.extension;
       data.tmpSuffix = ".tmp";
+      data.unorderedSuffix = ".unordered";
 
       await Joiner(data).catch((e) => {
         console.error(`Error: ${e}`.red);
