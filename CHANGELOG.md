@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.2.2...v1.3.0) (2023-10-15)
+
+
+### Features
+
+* joined files ordering ([ff2db10](https://github.com/advertikon/vehicle-parts-file-converter/commit/ff2db100062d3dd79f69925e9d0d7826b37800f2))
+
 ## [1.2.2](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.2.1...v1.2.2) (2023-10-14)
 
 
