@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.2...v1.3.3) (2023-10-16)
+
+
+### Bug Fixes
+
+* add color import to orderer script ([0c8eb0e](https://github.com/advertikon/vehicle-parts-file-converter/commit/0c8eb0e2fd028994c2c5236c6dde3f069f3518ca))
+
 ## [1.3.2](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.1...v1.3.2) (2023-10-16)
 
 
