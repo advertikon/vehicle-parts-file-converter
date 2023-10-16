@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.1...v1.3.2) (2023-10-16)
+
+
+### Bug Fixes
+
+* do not tolerate columns count issue on reorder ([ddbe692](https://github.com/advertikon/vehicle-parts-file-converter/commit/ddbe692d6a2ba82cd03e90b43e389b8d9639fcf5))
+
 ## [1.3.1](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.0...v1.3.1) (2023-10-16)
 
 
