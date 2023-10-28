@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.3...v1.4.0) (2023-10-28)
+
+
+### Features
+
+* add file lookup feature to joiner ([73c792c](https://github.com/advertikon/vehicle-parts-file-converter/commit/73c792cbb7afa4029814a5394f230b6d4abc6f5b))
+
 ## [1.3.3](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.2...v1.3.3) (2023-10-16)
 
 
