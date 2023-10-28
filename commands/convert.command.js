@@ -1,28 +1,16 @@
 import "colors";
 import { Converter } from "../lib/converter/converter.js";
 import { readOptions } from "../lib/read-options.js";
-import path from "path";
-
-const options = [
-  [
-    "namespace",
-    "Select a namespace",
-    ["sema", "custom-fitment", "dci"],
-    "sema",
-  ],
-  ["separatorIn", "Input file delimiter", [",", "|", null], "|"],
-  ["separatorOut", "Output file delimiter", [",", "|"], "|"],
-  ["outDir", "Directory to store output file", null, "."],
-];
+import { convertOptions } from "../lib/converter/options.js";
 
 export function convertCommand(program) {
   program
     .command("convert <file-name>")
     .description("Convert file to proper format")
     .action(async (fileName) => {
-      options[3][3] = path.dirname(fileName); // save output to the same dir as the input file (.)
-      const { separatorIn, separatorOut, namespace, outDir } =
-        await readOptions(options);
+      const {data, options} = convertOptions(fileName);
+      await readOptions(options);
+      const {namespace, separatorIn, separatorOut, outDir} = data
       await Converter(
         fileName,
         namespace,
