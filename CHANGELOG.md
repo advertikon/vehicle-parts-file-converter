@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.4.0...v1.4.1) (2023-10-30)
+
+
+### Bug Fixes
+
+* fix no-match file headers miss, fix lookup files options showing ([82181a0](https://github.com/advertikon/vehicle-parts-file-converter/commit/82181a00cbceeda42a985d568cf909ac50c09818))
+
 # [1.4.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.3.3...v1.4.0) (2023-10-28)
 
 
