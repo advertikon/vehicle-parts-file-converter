@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.4.1...v1.5.0) (2023-10-31)
+
+
+### Features
+
+* split no-match-file to several buckets ([59622a1](https://github.com/advertikon/vehicle-parts-file-converter/commit/59622a192cdbb440b24cf91de812cc199edf46c9))
+
 ## [1.4.1](https://github.com/advertikon/vehicle-parts-file-converter/compare/v1.4.0...v1.4.1) (2023-10-30)
 
 
